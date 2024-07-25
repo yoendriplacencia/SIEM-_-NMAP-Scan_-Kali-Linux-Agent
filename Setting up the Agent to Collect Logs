@@ -8,3 +8,4 @@ curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-ag
 tar xzvf elastic-agent-8.14.3-linux-x86_64.tar.gz
 cd elastic-agent-8.14.3-linux-x86_64
 sudo ./elastic-agent install --url=https://2d2ab100426c4b62ad5103056782a3b4.fleet.us-central1.gcp.cloud.es.io:443 --enrollment-token=YlBZZjZKQUJ4X1lvdllwQVNBbFk6LVVCY0xxLXZUT1NrTzJGTGVnQmwxUQ==
+![Screenshot 2024-07-23 002411](https://github.com/user-attachments/assets/dbcef1f0-2a72-4c72-b548-6abd288dd065)
