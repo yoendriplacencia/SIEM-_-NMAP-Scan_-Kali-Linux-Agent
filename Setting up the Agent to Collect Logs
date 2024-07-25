@@ -1,0 +1,10 @@
+An agent is a software program that is installed on a device, such as a server or endpoint, to collect and send data to a centralized system for analysis and monitoring.
+In the context of Elastic SIEM, an agent is used to collect and forward security-related events from your endpoints to your Elastic SIEM instance.
+
+- We need to install the agent with the code below into the Kali terminal
+
+
+curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.14.3-linux-x86_64.tar.gz
+tar xzvf elastic-agent-8.14.3-linux-x86_64.tar.gz
+cd elastic-agent-8.14.3-linux-x86_64
+sudo ./elastic-agent install --url=https://2d2ab100426c4b62ad5103056782a3b4.fleet.us-central1.gcp.cloud.es.io:443 --enrollment-token=YlBZZjZKQUJ4X1lvdllwQVNBbFk6LVVCY0xxLXZUT1NrTzJGTGVnQmwxUQ==
